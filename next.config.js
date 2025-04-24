@@ -1,4 +1,7 @@
-module.exports = {
-  reactStrictMode: true,
-  trailingSlash: true,
+const nextConfig = {
+  output: 'export',
+  basePath: '/hat.sh',
+  assetPrefix: '/hat.sh/',
 }
+
+module.exports = nextConfig

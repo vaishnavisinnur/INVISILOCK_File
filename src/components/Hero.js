@@ -19,7 +19,8 @@ export default function Hero() {
   return (
     
 <Container maxWidth="sm" component="main" className={classes.heroContent}>
-    <h1 class="heroTitle"><center>InvisiLock</center></h1>
+<h1 class="heroTitle"><center>InvisiLock</center></h1>
+
       {/* <Typography
         variant="h5"
         align="center"
