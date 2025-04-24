@@ -56,11 +56,11 @@ const LoadingCom = (props) => {
 
   return (
     <Backdrop className={classes.backDrop} open={props.open}>
-      <div className={classes.loadingWrapper}>
+      {/* <div className={classes.loadingWrapper}>
         <div className={classes.circle}></div>
         <img
           className={classes.loadingImg}
-          src="/assets/images/logo.png"
+          // src="/assets/images/logo.png"
           alt="Loading..."
         />
 
@@ -68,6 +68,7 @@ const LoadingCom = (props) => {
             Loading...
         </samp>
       </div>
+     */}
     </Backdrop>
   );
 };

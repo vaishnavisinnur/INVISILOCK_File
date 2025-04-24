@@ -17,8 +17,10 @@ const useStyles = makeStyles((theme) => ({
 export default function Hero() {
   const classes = useStyles();
   return (
-    <Container maxWidth="sm" component="main" className={classes.heroContent}>
-      <Typography
+    
+<Container maxWidth="sm" component="main" className={classes.heroContent}>
+    <h1 class="heroTitle"><center>InvisiLock</center></h1>
+      {/* <Typography
         variant="h5"
         align="center"
         gutterBottom
@@ -34,7 +36,7 @@ export default function Hero() {
       >
         {t('sub_title')}
         <br />
-      </Typography>
+      </Typography> */}
     </Container>
   );
 }

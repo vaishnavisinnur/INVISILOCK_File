@@ -107,7 +107,7 @@ const KeysGeneration = (props) => {
     <>
     {!props.opened &&
       <div>
-        <Typography
+        {/* <Typography
           variant="caption"
           className={classes.generateNowText}
           onClick={() => {
@@ -119,15 +119,15 @@ const KeysGeneration = (props) => {
 
         <Typography variant="caption" className={classes.caption}>
           {t("key_pair_question")}
-        </Typography>
+        </Typography> */}
 
-        <Hidden xsDown>
+        {/* <Hidden xsDown>
           <a href="/about/#why-need-private-key" target="_blank">
             <Typography variant="caption" className={classes.keyCaption}>
               {t('why_need_private_key')}
             </Typography>
           </a>
-        </Hidden>
+        </Hidden> */}
       </div>
     }
       <div className={classes.root}>

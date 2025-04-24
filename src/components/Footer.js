@@ -152,7 +152,7 @@ export default function Footer() {
 
   return (
     <div className={classes.root}>
-      <footer className={classes.footer}>
+      {/* <footer className={classes.footer}>
         <Container maxWidth="sm">
           <Typography variant="body1">
             Built and developed by{" "}
@@ -289,8 +289,8 @@ export default function Footer() {
             </DialogActions>
           </Dialog>
         </Container>
-      </footer>
-      <Hidden xsDown>
+      </footer> */}
+      {/* <Hidden xsDown>
         <Snackbar
           style={{ zIndex: 1 }}
           anchorOrigin={{
@@ -334,7 +334,7 @@ export default function Footer() {
             {t("donation_message")}
           </Alert>
         </Snackbar>
-      </Hidden>
+      </Hidden> */}
     </div>
   );
 }

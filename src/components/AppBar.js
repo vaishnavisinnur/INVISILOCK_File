@@ -31,7 +31,7 @@ export default function NavAppBar() {
     <div>
       <AppBar color="transparent" position="static" elevation={0}>
         <Container maxWidth="lg">
-          <Toolbar>
+          {/* <Toolbar>
             <Typography variant="h6" className={classes.logo}>
               <a href="/">
                 <img src="/assets/images/logo.png" alt="logo" width="40" />
@@ -52,7 +52,7 @@ export default function NavAppBar() {
             </IconButton>
 
             <Settings />
-          </Toolbar>
+          </Toolbar> */}
         </Container>
       </AppBar>
     </div>

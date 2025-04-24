@@ -330,7 +330,7 @@ export default function About(props) {
           elevation={0}
         >
           <Container maxWidth="lg">
-            <Toolbar>
+            {/* <Toolbar>
               <IconButton
                 color="inherit"
                 aria-label="open drawer"
@@ -360,7 +360,7 @@ export default function About(props) {
               </IconButton>
 
               <Settings />
-            </Toolbar>
+            </Toolbar> */}
           </Container>
         </AppBar>
 

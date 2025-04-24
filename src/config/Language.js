@@ -47,7 +47,7 @@ const Language = () => {
         </Select>
       </FormControl>
 
-      <Hidden xsDown>
+      {/* <Hidden xsDown>
         <Alert
           className={classes.formControl}
           severity="info"
@@ -62,7 +62,7 @@ const Language = () => {
         >
           {t("help_translate")}
         </Alert>
-      </Hidden>
+      </Hidden> */}
     </>
   );
 };
